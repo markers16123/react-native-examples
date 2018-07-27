@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mark.FEELANET\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native-camera
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\mark.FEELANET\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\GnuWin32\bin;C:\MinGW\bin;C:\Users\mark.FEELANET\.dnx\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.6\;C:\Program Files\MySQL\MySQL Workbench 6.3 CE;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\PuTTY\;C:\Program Files\OpenSSH\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Oni\;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Microsoft VS Code\bin;C:\Users\mark.FEELANET\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_161;"%PATH%;C:\Users\mark.FEELANET\AppData\Local\Android\Sdk\tools";C:\Users\mark.FEELANET\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Users\mark.FEELANET\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\mark.FEELANET\AppData\Local\Programs\Fiddler;C:\Users\mark.FEELANET\AppData\Roaming\npm;C:\Users\mark.FEELANET\AppData\Local\hyper\app-2.1.0-canary1\resources\bin;C:\Program Files (x86)\Oni;C:\tools\neovim\Neovim\bin;C:\Users\mark.FEELANET\AppData\Local\Microsoft\WindowsApps;C:\Users\mark.FEELANET\AppData\Local\GitHubDesktop\bin;C:\Users\mark.FEELANET\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "empty-project-template",
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^29.0.0",
+      "react": "16.3.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\mygit\qrscan\testt1\node_modules\deep-extend\lib'
