@@ -1,0 +1,19 @@
+cd 'c:\Program Files\Java\jdk1.8.0_191\bin\'
+keytool -genkey -v -keystore expo-google-login.keystore -alias expo-google-login -keyalg RSA -keysize 2048 -validity 10000
+
+Pa$$w0rd
+
+--------------------------
+AndroidManifest.xml 파일에서 패키지 이름을 가져온 후 다음 명령어를 사용하여 지문을 가져오세요.
+&"C:\Program Files\Java\jdk1.8.0_191\bin\keytool.exe" -exportcert -keystore expo-google-login.keystore -list -v
+
+Certificate fingerprints:
+         MD5:  49:F4:09:FD:A5:30:AB:F8:5D:49:A1:BD:6E:06:5E:F4
+         SHA1: DC:95:35:9A:96:2B:CE:4B:B0:79:29:55:35:60:61:53:E9:41:49:9B
+         SHA256: C4:E1:B1:11:E1:5D:30:B9:11:FD:85:3B:6E:60:52:16:80:B0:53:EE:8A:14:0B:C8:59:66:38:18:9D:C6:D1:67
+
+--------------------------
+Google OAuth Information
+
+클라이언트 ID:
+612870904464-om2pus548e754p9pgibb0oup7abplr4p.apps.googleusercontent.com
